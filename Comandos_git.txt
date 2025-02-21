@@ -41,3 +41,7 @@ git rm archivo.txt
  git commit -m "renombramndo archivos"
 
 
+git status -s
+
+
+
