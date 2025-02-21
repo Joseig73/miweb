@@ -24,6 +24,18 @@ git add archivo1.txt  archivo2.txt
 git status
 git commit -m "commit inicial"
 git status
+ 
+ git rm archivo2.txt
+ git status
+ git add archivo2.txt
+ git commit -m "archivo eliminado"
+ git status
 
+git rm archivo.txt
+ git status
+ git restore --stage archivo.txt
+ git status
+
+ 
 
 
