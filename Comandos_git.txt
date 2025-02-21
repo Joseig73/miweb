@@ -36,6 +36,8 @@ git rm archivo.txt
  git restore --stage archivo.txt
  git status
 
- 
+ git mv archivo.py archivo1.py 
+ git status
+ git commit -m "renombramndo archivos"
 
 
