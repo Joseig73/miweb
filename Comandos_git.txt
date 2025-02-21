@@ -23,6 +23,7 @@ git add archivo1.txt  archivo2.txt
 ---si realizamos modificacion archivo1.txt
 git status
 git commit -m "commit inicial"
+git status
 
 
 
