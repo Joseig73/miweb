@@ -16,7 +16,7 @@ ls -a mostrar tod slos archivos
 cd .git
 ls -a aparecen todos los archivos que gestionan los proyectos
 
-code .   ----abrir la carpeta en el aeditor
+code .   ----abrir la carpeta en el editor
 crear archivo1.   cualquier tipo.
 git status
 git add archivo1.txt  archivo2.txt
