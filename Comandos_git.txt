@@ -59,3 +59,9 @@ git checkout -b ramab
 ----unificar camnbios
 git checkout master
 git merge ramaB 
+
+--- crear repositrio en la web GITHUB
+
+git remote add origin https://github.com/Joseig73/miweb.git
+
+git push -u origin main
