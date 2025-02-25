@@ -47,4 +47,8 @@ git add archivo.txt
 git diff --staged
 git status
 
+--- revisar el historial de ambios
+git log --oneline
 
+git branch
+git checkout -b ramab 
