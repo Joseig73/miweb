@@ -42,6 +42,9 @@ git rm archivo.txt
 
 
 git status -s
-
+git diff  salir con u
+git add archivo.txt
+git diff --staged
+git status
 
 
