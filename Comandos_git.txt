@@ -50,5 +50,12 @@ git status
 --- revisar el historial de ambios
 git log --oneline
 
+
+--- Crear ramas alternas para realizar otros camnbios
+
 git branch
 git checkout -b ramab 
+
+----unificar camnbios
+git checkout master
+git merge ramaB 
