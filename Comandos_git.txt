@@ -54,6 +54,8 @@ git log --oneline
 --- Crear ramas alternas para realizar otros camnbios
 
 git branch
+git branch -m main
+
 git checkout -b ramab 
 
 ----unificar camnbios
