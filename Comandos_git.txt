@@ -1,3 +1,6 @@
+ptyton PROG
+---HICE CAMBIOS
+
 comenzar comfigurar
 desde la consola
 git --version
@@ -68,8 +71,8 @@ git merge ramaB
 ----tengo una confusion en la actualizacion de las ramas
 
 
---- crear repositrio en la web GITHUB
+--- crear repositorio en la web GITHUB
 
 git remote add origin https://github.com/Joseig73/miweb.git
 
-git push -u origin master
+git push -u origin main
