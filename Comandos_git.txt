@@ -66,7 +66,7 @@ git merge ramaB
 ----tengo una confusion en la actualizacion de las ramas
 
 
---- crear repositrio en la web GITHUB
+--- crear repositorio en la web GITHUB
 
 git remote add origin https://github.com/Joseig73/miweb.git
 
