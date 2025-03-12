@@ -50,7 +50,7 @@ git add archivo.txt
 git diff --staged
 git status
 
---- revisar el historial de ambios
+--- revisar el historial de cambios
 git log --oneline
 git log --graph --oneline
 
@@ -68,8 +68,6 @@ git checkout -b ramab
 git checkout master
 git merge ramaB 
 
-----tengo una confusion en la actualizacion de las ramas
-
 
 --- crear repositorio en la web GITHUB
 
@@ -77,3 +75,17 @@ git remote add origin https://github.com/Joseig73/miweb.git
 
 git push -u origin master
 11:20PM
+
+…or create a new repository on the command line
+echo "# Master" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/JoseIgnacioS/Master.git
+git push -u origin master
+
+or push an existing repository from the command line
+git remote add origin https://github.com/JoseIgnacioS/Master.git
+git branch -M master
+git push -u origin master
