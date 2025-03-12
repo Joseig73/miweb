@@ -49,7 +49,10 @@ git status
 
 --- revisar el historial de ambios
 git log --oneline
+git log --graph --oneline
 
+--- configurar el log del git
+git config --global alias.tree "log --graph --decorate --all --oneline"
 
 --- Crear ramas alternas para realizar otros camnbios
 
