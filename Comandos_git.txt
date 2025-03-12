@@ -12,7 +12,7 @@ comandos de GIT
 cd workspace
 mkdir miweb
 git init
-ls -a mostrar tod slos archivos
+ls -a mostrar todos los archivos
 cd .git
 ls -a aparecen todos los archivos que gestionan los proyectos
 
@@ -42,7 +42,7 @@ git rm archivo.txt
 
 
 git status -s
-git diff  salir con u
+git diff  ----salir con u
 git add archivo.txt
 git diff --staged
 git status
