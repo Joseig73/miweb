@@ -15,7 +15,7 @@ comandos de GIT
 cd workspace
 mkdir miweb
 git init
-ls -a mostrar tod slos archivos
+ls -a mostrar todos los archivos
 cd .git
 ls -a aparecen todos los archivos que gestionan los proyectos
 
@@ -41,29 +41,32 @@ git rm archivo.txt
 
  git mv archivo.py archivo1.py 
  git status
- git commit -m "renombramndo archivos"
+ git commit -m "renombrando los archivos"
 
 
 git status -s
-git diff  salir con u
+git diff  ----salir con u
 git add archivo.txt
 git diff --staged
 git status
 
---- revisar el historial de ambios
+--- revisar el historial de cambios
 git log --oneline
+git log --graph --oneline
 
+--- configurar el log del git
+git config --global alias.tree "log --graph --decorate --all --oneline"
 
 --- Crear ramas alternas para realizar otros camnbios
 
 git branch
+git branch -m main
+
 git checkout -b ramab 
 
 ----unificar camnbios
 git checkout master
 git merge ramaB 
-
-----tengo una confusion en la actualizacion de las ramas
 
 
 --- crear repositorio en la web GITHUB
@@ -72,3 +75,17 @@ git remote add origin https://github.com/Joseig73/miweb.git
 
 git push -u origin master
 11:20PM
+
+…or create a new repository on the command line
+echo "# Master" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/JoseIgnacioS/Master.git
+git push -u origin master
+
+or push an existing repository from the command line
+git remote add origin https://github.com/JoseIgnacioS/Master.git
+git branch -M master
+git push -u origin master
