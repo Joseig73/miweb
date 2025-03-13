@@ -52,40 +52,8 @@ git status
 
 --- revisar el historial de cambios
 git log --oneline
-git log --graph --oneline
-
---- configurar el log del git
-git config --global alias.tree "log --graph --decorate --all --oneline"
-
---- Crear ramas alternas para realizar otros camnbios
 
 git branch
 git branch -m main
 
 git checkout -b ramab 
-
-----unificar camnbios
-git checkout master
-git merge ramaB 
-
-
---- crear repositorio en la web GITHUB
-
-git remote add origin https://github.com/Joseig73/miweb.git
-
-git push -u origin master
-11:20PM
-
-…or create a new repository on the command line
-echo "# Master" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M master
-git remote add origin https://github.com/JoseIgnacioS/Master.git
-git push -u origin master
-
-or push an existing repository from the command line
-git remote add origin https://github.com/JoseIgnacioS/Master.git
-git branch -M master
-git push -u origin master
