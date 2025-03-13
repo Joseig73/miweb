@@ -1,3 +1,6 @@
+ptyton PROG
+---HICE CAMBIOS
+
 comenzar comfigurar
 desde la consola
 git --version
@@ -50,19 +53,22 @@ git status
 --- revisar el historial de ambios
 git log --oneline
 
+
+--- Crear ramas alternas para realizar otros camnbios
+
 git branch
 git checkout -b ramab 
 
-…or create a new repository on the command line
-echo "# Master" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M master
-git remote add origin https://github.com/JoseIgnacioS/Master.git
-git push -u origin master
+----unificar camnbios
+git checkout master
+git merge ramaB 
 
-or push an existing repository from the command line
-git remote add origin https://github.com/JoseIgnacioS/Master.git
-git branch -M master
+----tengo una confusion en la actualizacion de las ramas
+
+
+--- crear repositorio en la web GITHUB
+
+git remote add origin https://github.com/Joseig73/miweb.git
+
 git push -u origin master
+11:20PM
